@@ -4,6 +4,7 @@ pandas
 requests
 mlxtend
 PyPDF2
+ipykernel
 # duckduckgo
 
 # --- Model Integrations (Must be compatible with v0.3) ---
