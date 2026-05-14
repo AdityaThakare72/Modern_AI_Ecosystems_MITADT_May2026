@@ -67,7 +67,7 @@ if st.button("Summarize"):
     with st.spinner("Analyzing the scrolls..."):
         result = chain.invoke(
             {
-                
+                "paper_name": paper_input,
                 "style": style_input,
                 "length": length_input,
             }

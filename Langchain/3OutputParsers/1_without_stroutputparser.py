@@ -39,4 +39,4 @@ prompt2 = template2.invoke({"text": result.content})
 
 result1 = llm.invoke(prompt2)
 
-print(result1.content)
+print(result1)
